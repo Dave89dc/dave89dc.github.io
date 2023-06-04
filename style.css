@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500;600;700;800&family=Prompt:wght@400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    transition: all 0.2s ease-out;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(32, 32, 32);
+    font-family: Prompt, sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px transparent;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(237, 237, 237, 0.4);
+    border-radius: 10px;
+  }
+
+/* HOME (index.html) --------------------------------------------------------------------------- */
+
+.home-body{
+    background-color: rgb(26, 26, 26);
+    min-height: 100vh;
+    overflow-y: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(237, 237, 237);
+}
+
+.title{
+    color: rgb(237, 237, 237);
+    font-size: 120px;
+    font-family: MuseoModerno, sans-serif;
+    margin: 10px;
+    text-align: center;
+}
+
+.card-box{
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card{
+    width: 400px;
+    height: 550px;
+    background-color: rgb(32, 32, 32);
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgb(237, 237, 237);
+    transition: transform 0.2s ease-out;
+}
+
+.card:hover{
+    transform: scale(1.08);
+    background-color: rgb(45, 45, 45);
+    border-radius: 10px;
+}
+
+.card:hover h2{
+    text-decoration: underline;
+}
+
+.card:active{
+    background-color: rgb(72, 72, 72);
+}
+
+.card-title{
+    color: rgb(237, 237, 237);
+    font-size: 60px;
+    text-align: center;
+    font-family: MuseoModerno, sans-serif;
+}
+
+.card-details{
+    padding: 10px;
+    text-align: center;
+}
+
+.card-span{
+    color: rgb(237, 237, 237);
+    font-size: 20px;
+}
+
+.svg-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.svg{
+    width: 150px;
+}
+
+
+/* HEADER per tutte le pagine -------------------------------------------------------------------------------- */
+
+
+header{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(26, 26, 26);
+    border-bottom: 1px solid rgb(237, 237, 237);
+}
+
+h1{
+    color: rgb(237, 237, 237);
+    margin: 0px;
+    height: fit-content;
+}
+
+.menu-box{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    margin: 0px;
+}
+
+li{
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.menu-link:hover{
+    text-decoration: underline;
+}
+
+
+/* Biografia ----------------------------------------------------------------------- */
+
+
+.title-box{
+    width: 100%;
+    padding: 20px;
+}
+
+.bio-title{
+    font-size: 60px;
+    text-align: center;
+}
+
+.nav-box{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+.nav{
+    transition: transform 0.1s ease-out;
+}
+
+.nav:hover{
+    transform: scale(1.1);
+}
+
+.nav:hover .nav-link{
+    text-decoration: underline;
+}
+
+.nav-link{
+    font-size: 25px;
+}
+
+.profilo{
+    width: 800px;
+    padding: 40px;
+    border: 2px solid rgb(237, 237, 237);
+    border-radius: 10px;
+    background-color: rgb(26, 26, 26);
+    margin: auto;
+}
+
+.bio-box{
+    margin: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.foto-profilo{
+    width: 200px;
+    border-radius: 120px;
+    border: 2px solid rgb(237, 237, 237);
+}
+
+.ul-profilo{
+    padding-left: 0px;
+}
+
+.lista-profilo{
+    display: block;
+    color: rgb(237, 237, 237);
+}
+
+.esp-scolastica-box{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(26, 26, 26);
+    border: 2px solid rgb(237, 237, 237);
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+p{
+    color: rgb(237, 237, 237);
+    font-size: 20px;
+}
+
+.band{
+    color: rgb(237, 237, 237);
+    display: block;
+}
+
+.arrow-box{
+    width: 100%;
+    padding: 60px;
+    text-align: center;
+}
+
+.torna-su{
+    font-size: 30px;
+}
+
+.torna-su:hover{
+    text-decoration: underline;
+}
+
+
+/* FOOTER -----------------------------------------------------------------------------------*/
+
+
+footer{
+    width: 100%;
+    padding: 40px;
+    background-color: rgb(26, 26, 26);
+    border-top: 2px solid rgb(237, 237, 237);
+}
+
+address{
+    color: rgb(237, 237, 237);
+}
+
+.footer-svg{
+    width: 25px;
+    margin-left: 15px;
+}
+
+
+
+
+/* ----------------------------------------------------------------------------------------- */
+
+/* MODIFICHE SCHERMI */
+
+/* Home (index.html) */
+
+@media screen and (max-width: 1345px){
+
+    .card-box{
+        flex-direction: column;
+    }
+
+    .card{
+        width: 500px;
+        height: 650px;
+        margin-bottom: 60px;
+    }
+
+    .svg{
+        width: 200px;
+    }
+
+}
+
+@media screen and (max-width: 830px){
+
+    .title{
+        font-size: 100px;
+    }
+
+}
+
+@media screen and (max-width: 675px){
+
+    .title{
+        font-size: 80px;
+    }
+
+    .card{
+        width: 450px;
+        height: 550px;
+    }
+
+    .svg{
+        width: 150px;
+    }
+
+}
+
+@media screen and (max-width: 550px){
+
+    .title{
+        font-size: 60px;
+    }
+
+    .card{
+        width: 400px;
+        height: 500px;
+    }
+
+}
+
+@media screen and (max-width: 435px){
+
+    .title{
+        font-size: 65px;
+    }
+
+    .card{
+        width: 100%;
+        height: 500px;
+    }
+
+    .card:hover{
+        transform: none;
+    }
+
+}
+
+@media screen and (max-width: 340px){
+
+    .card-title{
+        font-size: 40px;
+    }
+
+    .svg{
+        width: 120px;
+    }
+
+    .svg-box{
+        margin-top: 60px;
+    }
+
+}
+
+/* Biografia ------------------------------------------------------------------ */
+
+@media screen and (max-width: 915px){
+
+    .nav-box{
+        flex-direction: column;
+    }
+
+    .nav{
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 812px){
+
+    .bio-box{
+        flex-direction: column;
+    }
+
+    .profilo{
+        width: 100%;
+    }
+
+    .foto-profilo{
+        margin-bottom: 30px;
+    }
+
+    .esp-scolastica-box{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 350px){
+
+    .bio-title{
+        font-size: 45px;
+        text-align: start;
+    }
+
+    .foto-profilo{
+        width: 130px;
+    }
+
+}
+
+
+/* Header --------------------------------------------------------------- */
+
+
+@media screen and (max-width: 588px){
+
+    header{
+        flex-direction: column;
+    }
+
+    h1{
+        margin-bottom: 30px;
+    }
+    
+    ul{
+        padding-left: 0px;
+    }
+
+}
+
+@media screen and (max-width: 350px){
+
+    li{
+        display: block;
+        margin-bottom: 20px;
+    }
+
+}
