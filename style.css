@@ -478,3 +478,15 @@ address{
     }
 
 }
+
+
+/* Esperienze ----------------------------------------------------------------*/
+
+
+@media screen and (max-width: 385px){
+
+    .prog-title{
+        word-wrap: break-word;
+    }
+
+}
