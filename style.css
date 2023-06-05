@@ -166,29 +166,6 @@ li{
     text-align: center;
 }
 
-.nav-box{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px;
-    margin-bottom: 60px;
-}
-
-.nav{
-    transition: transform 0.1s ease-out;
-}
-
-.nav:hover{
-    transform: scale(1.1);
-}
-
-.nav:hover .nav-link{
-    text-decoration: underline;
-}
-
-.nav-link{
-    font-size: 25px;
-}
-
 .profilo{
     width: 800px;
     padding: 40px;
@@ -257,6 +234,30 @@ p{
 
 
 /* Esperienze ------------------------------------------------------------------------------*/
+
+
+.nav-box{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+.nav{
+    transition: transform 0.1s ease-out;
+}
+
+.nav:hover{
+    transform: scale(1.1);
+}
+
+.nav:hover .nav-link{
+    text-decoration: underline;
+}
+
+.nav-link{
+    font-size: 25px;
+}
 
 .sito{
     color: rgb(237, 237, 237);
@@ -403,19 +404,39 @@ address{
 
 }
 
-/* Biografia ------------------------------------------------------------------ */
 
-@media screen and (max-width: 915px){
+/* Header --------------------------------------------------------------- */
 
-    .nav-box{
+
+@media screen and (max-width: 588px){
+
+    header{
         flex-direction: column;
     }
 
-    .nav{
+    h1{
+        margin-bottom: 30px;
+    }
+    
+    ul{
+        padding-left: 0px;
+    }
+
+}
+
+@media screen and (max-width: 350px){
+
+    li{
+        display: block;
         margin-bottom: 20px;
     }
 
 }
+
+
+/* Biografia ------------------------------------------------------------------ */
+
+
 
 @media screen and (max-width: 812px){
 
@@ -451,37 +472,20 @@ address{
 }
 
 
-/* Header --------------------------------------------------------------- */
+/* Esperienze ----------------------------------------------------------------*/
 
 
-@media screen and (max-width: 588px){
+@media screen and (max-width: 915px){
 
-    header{
+    .nav-box{
         flex-direction: column;
     }
 
-    h1{
-        margin-bottom: 30px;
-    }
-    
-    ul{
-        padding-left: 0px;
-    }
-
-}
-
-@media screen and (max-width: 350px){
-
-    li{
-        display: block;
+    .nav{
         margin-bottom: 20px;
     }
 
 }
-
-
-/* Esperienze ----------------------------------------------------------------*/
-
 
 @media screen and (max-width: 385px){
 
