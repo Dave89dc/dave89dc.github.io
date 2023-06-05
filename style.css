@@ -12,7 +12,7 @@ html {
 html, body{
     margin: 0px;
     padding: 0px;
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(32, 32, 36);
     font-family: Prompt, sans-serif;
 }
 
@@ -36,7 +36,7 @@ html, body{
 /* HOME (index.html) --------------------------------------------------------------------------- */
 
 .home-body{
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(29, 29, 33);
     min-height: 100vh;
     overflow-y: hidden;
 }
@@ -66,7 +66,7 @@ a{
 .card{
     width: 400px;
     height: 550px;
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(29, 29, 31);
     border-radius: 10px;
     cursor: pointer;
     border: 1px solid rgb(237, 237, 237);
@@ -75,7 +75,7 @@ a{
 
 .card:hover{
     transform: scale(1.08);
-    background-color: rgb(45, 45, 45);
+    background-color: rgb(37, 37, 41);
     border-radius: 10px;
 }
 
@@ -84,7 +84,7 @@ a{
 }
 
 .card:active{
-    background-color: rgb(72, 72, 72);
+    background-color: rgb(47, 47, 52);
 }
 
 .card-title{
@@ -123,7 +123,7 @@ header{
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(29, 29, 31);
     border-bottom: 1px solid rgb(237, 237, 237);
 }
 
@@ -194,8 +194,8 @@ li{
     padding: 40px;
     border: 2px solid rgb(237, 237, 237);
     border-radius: 10px;
-    background-color: rgb(26, 26, 26);
-    margin: auto;
+    background-color: rgb(29, 29, 31);
+    margin: 50px auto;
 }
 
 .bio-box{
@@ -220,10 +220,10 @@ li{
     color: rgb(237, 237, 237);
 }
 
-.esp-scolastica-box{
+.biogrphy-box{
     width: 90%;
     margin: auto;
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(29, 29, 31);
     border: 2px solid rgb(237, 237, 237);
     border-radius: 10px;
     padding: 40px;
@@ -256,13 +256,43 @@ p{
 }
 
 
+/* Esperienze ------------------------------------------------------------------------------*/
+
+.sito{
+    color: rgb(237, 237, 237);
+    display: block;
+}
+
+.link-sito{
+    text-decoration: underline;
+}
+
+.link-sito:hover{
+    color: rgba(229, 231, 255, 0.712);
+}
+
+.experience-box{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(29, 29, 31);
+    border: 2px solid rgb(237, 237, 237);
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+
+
+
+
 /* FOOTER -----------------------------------------------------------------------------------*/
 
 
 footer{
     width: 100%;
     padding: 40px;
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(29, 29, 31);
     border-top: 2px solid rgb(237, 237, 237);
 }
 
