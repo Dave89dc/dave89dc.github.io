@@ -12,7 +12,7 @@ html {
 html, body{
     margin: 0px;
     padding: 0px;
-    background-color: rgb(32, 32, 36);
+    background-color: rgb(57, 57, 67);
     font-family: Prompt, sans-serif;
 }
 
@@ -36,7 +36,7 @@ html, body{
 /* HOME (index.html) --------------------------------------------------------------------------- */
 
 .home-body{
-    background-color: rgb(29, 29, 33);
+    background-color: rgb(57, 57, 67);
     min-height: 100vh;
     overflow-y: hidden;
 }
@@ -75,7 +75,7 @@ a{
 
 .card:hover{
     transform: scale(1.08);
-    background-color: rgb(37, 37, 41);
+    background-color: rgb(47, 47, 54);
     border-radius: 10px;
 }
 
@@ -84,7 +84,7 @@ a{
 }
 
 .card:active{
-    background-color: rgb(47, 47, 52);
+    background-color: rgb(88, 88, 98);
 }
 
 .card-title{
@@ -124,7 +124,7 @@ header{
     display: flex;
     justify-content: space-between;
     background-color: rgb(29, 29, 31);
-    border-bottom: 1px solid rgb(237, 237, 237);
+    border-bottom: 2px solid rgb(237, 237, 237);
 }
 
 h1{
