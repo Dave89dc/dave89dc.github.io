@@ -1,3 +1,5 @@
+/* ETA --------------------------------------------------------- */
+
 function displayYears(){
     const etàList = document.getElementById('età');
     const text = document.createTextNode(`Età: ${getYears()}`);
@@ -15,3 +17,7 @@ function getYears(){
 }
 
 displayYears();
+
+
+/* CAROSELLO -------------------------------------------------- */
+
